@@ -1,0 +1,35 @@
+# 图片路径 需要推理的图片路径
+D1_PATH_IMAGE=test/009590.jpg
+
+# 图片类型
+D2_TYPE_IMAGE=jpg
+
+# 训练yaml路径
+D3_PATH_TRAIN_YAML=
+
+# 保存图片路径
+# D4_PATH_SAVE_IMAGE=/out/test.jpg
+
+# 导出的json路径
+D4_FOLDER_PREDICT_SAVE=/Users/qipengfei/Desktop/深度学习_期末考试/out
+
+# 模型导出路径
+E1_DIR_EXPORT=run
+
+# 流程类型 当前支持的流程：
+# 0 使用模型预测
+# 1 使用模型和训练yaml路径进行训练
+# 2 使用模型和验证yaml路径进行验证
+M1_TYPE_FLOW=0
+
+# 模型路径
+M2_PATH_MODEL=model/best.pt
+
+# 模型类型 目前没有意义
+M3_TYPE_MODEL=0
+
+# 验证路径
+V1_VAL_PATH=/your/val/yaml/path
+
+#置信度
+P1_PREDICT_CONFIDENCE=0.2

@@ -1,0 +1,9 @@
+path: /Users/qipengfei/Desktop/深度学习_期末考试/dataset/VOC
+train:
+  - images/train2012
+  - images/train2007
+  - images/val2012
+  - images/val2007
+val:
+  - images/test2007
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']
